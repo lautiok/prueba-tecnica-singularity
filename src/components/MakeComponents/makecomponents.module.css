@@ -1,0 +1,62 @@
+.make {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.makeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+  height: auto;
+  background-color: #4081fa;
+  border-radius: 20px;
+  padding: 3rem;
+  gap: 1rem;
+}
+
+.makeDog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe530;
+  border-radius: 50%;
+  width: 300px;
+  height: 200px;
+}
+
+.makeDog img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  align-self: flex-end;
+}
+
+.makeDogContent h2 {
+  color: #ffe530;
+}
+
+.makeDogContent p {
+  color: #fff;
+}
+
+.makeDogContent a {
+  text-decoration: none;
+  color: #ff6752;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+.circule {
+  width: 15%;
+  height: 30%;
+  background-color: #ffe530;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 155rem;
+  z-index: -1;
+}

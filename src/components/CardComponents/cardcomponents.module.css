@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: auto;
+  background-color: #4487ff;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  max-width: 500px;
+  text-align: center;
+}

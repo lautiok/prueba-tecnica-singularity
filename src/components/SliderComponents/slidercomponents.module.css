@@ -1,0 +1,56 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.slider h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  color: #ff6752;
+  text-align: center;
+}
+
+.sliderConteiner {
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.sliderConteiner button {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  background-color: #ff6752;
+  color: #fff;
+  cursor: pointer;
+}
+
+.swiper_button_prev {
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  z-index: 10;
+}
+
+.swiper_button_next {
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  z-index: 10;
+}

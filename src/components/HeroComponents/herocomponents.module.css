@@ -1,0 +1,91 @@
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.bg_color {
+  width: 100%;
+  height: 20%;
+  background-color: #ff6752;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.wave {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  background-image: url("../../assets/wave.svg");
+  background-size: cover;
+  background-position: bottom;
+  top: 170px;
+  left: 0;
+  z-index: -1;
+  transform: scaleX(-1);
+}
+
+.contenidoHero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenidoHero h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.contenidoHero p {
+  font-size: 1.2rem;
+  max-width: 500px;
+  color: #ffffff;
+}
+
+.contenidoButton {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: #4487ff;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.contenidoButton a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.petsHero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.petsImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe530;
+  border-radius: 50%;
+  width: 420px;
+  height: 420px;
+}
+
+.petsImg img {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+  align-self: flex-end;
+}

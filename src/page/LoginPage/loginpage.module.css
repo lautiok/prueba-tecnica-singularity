@@ -1,0 +1,53 @@
+.loginpage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+
+.logoLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.bg_color {
+  width: 40%;
+  height: 100%;
+  background-color: #ff6752;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.wave {
+  width: 55%;
+  height: 60%;
+  position: absolute;
+  background-image: url("../../assets/wave.svg");
+  background-size: cover;
+  background-position: bottom;
+  left: 25%;
+  z-index: -1;
+  transform: rotate(268deg);
+}
+
+.logoContainer {
+  width: 210px;
+  height: 210px;
+  background-color: #fff;
+  padding: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
