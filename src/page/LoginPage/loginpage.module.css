@@ -51,3 +51,40 @@
   height: auto;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1280px) {
+  .bg_color {
+    width: 46%;
+    height: 100%;
+  }
+
+  .wave {
+    width: 55%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  .bg_color {
+    width: 50%;
+    height: 100%;
+  }
+
+  .wave {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .loginpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg_color {
+    display: none;
+  }
+  .logoContainer {
+    display: none;
+  }
+}

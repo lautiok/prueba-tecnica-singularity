@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styles from "./herocomponents.module.css";
 import pets from "../../assets/pets-golden.png";
 
@@ -14,9 +13,9 @@ export const HeroComponents = () => {
           keeping pets healthy and happy!
         </p>
         <div className={styles.contenidoButton}>
-          <Link className={styles.button} to="/pets">
+          <a href="#service" className={styles.button}>
             Schedule Service
-          </Link>
+          </a>
           <a href="tel:+8663382463">Or Call 866.338.2463</a>
         </div>
       </div>
