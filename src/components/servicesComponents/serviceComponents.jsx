@@ -1,8 +1,8 @@
 import ArrowRightSvg from "../svg/ArrowRightSvg";
 import DogSvg from "../svg/DogSvg";
-import FootSvg from "../svg/FootSvg";
-import HomeSvg from "../svg/HomeSvg";
-import PetSvg from "../svg/petSvg";
+import FootSvg from "../svg/FootSvg.jsx";
+import HomeSvg from "../svg/HomeSvg.jsx";
+import PetSvg from "../svg/PetSvg.jsx";
 import styles from "./servicecomponents.module.css";
 
 export const ServiceComponents = () => {
